@@ -1,0 +1,22 @@
+.button {
+  @include flex();
+  font-size: $font-md;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: $radius-md;
+  &__primary {
+    background-color: $primary;
+    color: $white;
+  }
+  &__secondary {
+    background-color: $secondary;
+  }
+  &__outline {
+    background-color: transparent;
+    border: 2px solid $primary;
+    color: $primary;
+  }
+  &__ghost {
+    background-color: transparent;
+  }
+}

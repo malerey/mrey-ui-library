@@ -1,0 +1,101 @@
+{
+  "v": 3,
+  "stories": {
+    "welcome--docs": {
+      "id": "welcome--docs",
+      "title": "Welcome",
+      "name": "Docs",
+      "importPath": "./src/Index.mdx",
+      "storiesImports": [],
+      "tags": ["unattached-mdx", "docs"],
+      "kind": "Welcome",
+      "story": "Docs",
+      "parameters": { "__id": "welcome--docs", "docsOnly": true, "fileName": "./src/Index.mdx" }
+    },
+    "example-button--docs": {
+      "id": "example-button--docs",
+      "title": "Example/Button",
+      "name": "Docs",
+      "importPath": "./src/components/Button/Button.stories.ts",
+      "tags": ["autodocs", "docs"],
+      "storiesImports": [],
+      "kind": "Example/Button",
+      "story": "Docs",
+      "parameters": {
+        "__id": "example-button--docs",
+        "docsOnly": true,
+        "fileName": "./src/components/Button/Button.stories.ts"
+      }
+    },
+    "example-button--default": {
+      "id": "example-button--default",
+      "name": "Default",
+      "title": "Example/Button",
+      "importPath": "./src/components/Button/Button.stories.ts",
+      "tags": ["autodocs", "story"],
+      "kind": "Example/Button",
+      "story": "Default",
+      "parameters": {
+        "__id": "example-button--default",
+        "docsOnly": false,
+        "fileName": "./src/components/Button/Button.stories.ts"
+      }
+    },
+    "example-button--secondary": {
+      "id": "example-button--secondary",
+      "name": "Secondary",
+      "title": "Example/Button",
+      "importPath": "./src/components/Button/Button.stories.ts",
+      "tags": ["autodocs", "story"],
+      "kind": "Example/Button",
+      "story": "Secondary",
+      "parameters": {
+        "__id": "example-button--secondary",
+        "docsOnly": false,
+        "fileName": "./src/components/Button/Button.stories.ts"
+      }
+    },
+    "example-button--outline": {
+      "id": "example-button--outline",
+      "name": "Outline",
+      "title": "Example/Button",
+      "importPath": "./src/components/Button/Button.stories.ts",
+      "tags": ["autodocs", "story"],
+      "kind": "Example/Button",
+      "story": "Outline",
+      "parameters": {
+        "__id": "example-button--outline",
+        "docsOnly": false,
+        "fileName": "./src/components/Button/Button.stories.ts"
+      }
+    },
+    "example-button--ghost": {
+      "id": "example-button--ghost",
+      "name": "Ghost",
+      "title": "Example/Button",
+      "importPath": "./src/components/Button/Button.stories.ts",
+      "tags": ["autodocs", "story"],
+      "kind": "Example/Button",
+      "story": "Ghost",
+      "parameters": {
+        "__id": "example-button--ghost",
+        "docsOnly": false,
+        "fileName": "./src/components/Button/Button.stories.ts"
+      }
+    },
+    "example-button--disabled": {
+      "id": "example-button--disabled",
+      "name": "Disabled",
+      "title": "Example/Button",
+      "importPath": "./src/components/Button/Button.stories.ts",
+      "tags": ["autodocs", "story"],
+      "kind": "Example/Button",
+      "story": "Disabled",
+      "parameters": {
+        "__id": "example-button--disabled",
+        "docsOnly": false,
+        "fileName": "./src/components/Button/Button.stories.ts"
+      }
+    }
+  }
+}
