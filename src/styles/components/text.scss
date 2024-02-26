@@ -1,0 +1,28 @@
+.text {
+  font-family: $font;
+  &__paragraphLG {
+    font-size: $paragraph-lg;
+  }
+  &__paragraphMD {
+    font-size: $paragraph-md;
+  }
+  &__paragraphSM {
+    font-size: $paragraph-sm;
+  }
+  &__caption {
+    font-size: $caption;
+    color: $decorator;
+  }
+  &__headingLG {
+    font-size: $heading-lg;
+    font-weight: 700;
+  }
+  &__headingMD {
+    font-size: $heading-md;
+    font-weight: 700;
+  }
+  &__headingSM {
+    font-size: $heading-sm;
+    font-weight: 700;
+  }
+}

@@ -1,5 +1,4 @@
 // colors
-
 $primary: #e56e1a;
 $secondary: #ece4de;
 $black: #000;
@@ -8,13 +7,18 @@ $bg: $white;
 $primary-dark: #e56e1a;
 $secondary-dark: #473324;
 $bg-dark: #211712;
+$decorator: #8d6e54;
 
 // font
-
 $font: Montserrat, sans-serif;
-$font-md: 16px;
-$font-lg: 22px;
+$paragraph-sm: 12px;
+$paragraph-md: 16px;
+$paragraph-lg: 18px;
+$heading-sm: 18px;
+$heading-md: 22px;
+$heading-lg: 26px;
+$caption: 12px;
 
 // misc
-
 $radius-md: 12px;
+$radius-sm: 8px;
