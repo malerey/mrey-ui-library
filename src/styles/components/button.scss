@@ -23,8 +23,7 @@
     background-color: transparent;
   }
   &:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
+    @include disabled();
   }
   &__small {
     font-size: $paragraph-sm;

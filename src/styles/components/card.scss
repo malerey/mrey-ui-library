@@ -1,0 +1,14 @@
+.card {
+  @include flex($justify: flex-start, $align: flex-start);
+  width: $card-width;
+  height: $card-height;
+  box-shadow: $box-shadow;
+  border-radius: $radius-md;
+  padding: $sm;
+  transition: $transition;
+  &__hover {
+    &:hover {
+      box-shadow: $box-shadow-hover;
+    }
+  }
+}

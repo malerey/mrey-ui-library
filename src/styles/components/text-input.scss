@@ -1,0 +1,19 @@
+.input {
+  @include flex($justify: flex-start, $align: flex-end);
+  gap: $sm;
+  width: 358px;
+  height: $lg;
+  border-radius: $radius-sm;
+  background-color: $secondary;
+  font-size: $paragraph-md;
+  border: none;
+  padding: $sm;
+  transition: $transition-fast;
+  &:focus {
+    outline: none;
+    box-shadow: 1px 1px 0 $decorator;
+  }
+  &:disabled {
+    @include disabled();
+  }
+}
