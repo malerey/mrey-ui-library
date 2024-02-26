@@ -7,7 +7,7 @@ export interface TextInputProps
   required?: boolean
   labelText?: string
   disabled?: boolean
-  icon: ReactNode
+  icon?: ReactNode
 }
 
 export const TextInput = ({ disabled = false, required, labelText, placeholder, icon }: TextInputProps) => {
